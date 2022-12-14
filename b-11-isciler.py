@@ -9,7 +9,6 @@ for ind, val in enumerate(arr):
         dict[val] += [ind]
     else:
         dict[val] = [ind]
-svy=0
 
 for i in range(n):
     if i+1 in dict:
